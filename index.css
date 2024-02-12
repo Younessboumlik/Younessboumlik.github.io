@@ -1,0 +1,20 @@
+header,footer{
+    background-color: antiquewhite;
+    margin: 200 10;
+    font-family: "consolas";
+}
+header:hover,footer:hover{
+    box-shadow: 0px 0px 20px rgb(197, 197, 197);
+}
+.logo{
+    font-size:25px;
+    font-style:italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:azure;
+}
