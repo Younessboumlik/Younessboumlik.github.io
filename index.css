@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 header,footer{
     background-color: antiquewhite;
-    margin-top: 1px;
     font-family:"Merriweather",sans-serif;
-    height: 50px;
-    padding: 20px;
+    height: 10px;
+    padding: 2%;
     align-items: center;
     display: flex;
     align-items: center;
@@ -20,7 +19,7 @@ header:hover,footer:hover{
     font-size:30px;
     font-style:italic;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 3%;
 }
 header a{
     text-decoration: none;
