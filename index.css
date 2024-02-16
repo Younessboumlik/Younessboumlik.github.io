@@ -57,17 +57,19 @@ body{
 }
 .myimage{
     position: relative;
-    left:80px;
+    left:-130px;
 }
 .myimage:hover{
-    filter:brightness(100px)
+    filter:contrast(120%);
+    /* background-color: aquamarine; */
 }
 /* informations */
 .info{
     font-size: 60px;
     text-align: center;
-    top:40px;
-
+    top:-20px;
+    position: relative;
+    left:-100px
 }
 
 .firstsection{
@@ -78,7 +80,15 @@ body{
 
 .myname{
     font-weight: bold;
-    color:darkblue
+    color:darkblue;
+}
+.info2{
+    position: relative;
+    top:-10px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:bold;
+
 }
 /* the case of mobiles... */
 @media only screen and (max-width: 1100px) {
